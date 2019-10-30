@@ -1,0 +1,155 @@
+
+.header {
+  background: #D1F0F6;
+}
+.main-logo {
+  width: 200px;
+}
+
+.nav-item {
+  padding-left: .8rem !important;
+}
+
+.links {
+  color: #474747 !important;
+
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.main-btn {
+  background: #00AEFF;
+border-radius: 4px;
+font-weight: bold;
+color: white !important;
+display: inline-block;
+}
+
+.main-btn:hover {
+  background: rgb(0, 142, 207);
+}
+
+.main-heading {
+  font-size: 2rem;
+  color: #084482;
+}
+
+.main-header-content {
+  margin-top: 10rem;
+  margin-bottom: 0;
+  padding-bottom: 5rem;
+}
+
+.main-header-content p {
+  font-size: 1.1rem;
+  color: #474747;
+}
+
+.main {
+  background: #F4F5F7;
+  padding-top: 3rem;
+}
+
+.main-form {
+  padding-bottom: 20rem;
+}
+
+.main-form-header {
+  font-weight: normal;
+  color: #333;
+}
+
+.select-group {
+  background: white;
+  
+}
+
+.select-group label {
+  color: #525F7F;
+}
+
+.form-second-section img {
+  display: block;
+  margin: 1rem auto;
+  cursor: pointer;
+}
+
+.form-second-section p {
+  font-size: 1.1rem;
+}
+
+.form-control {
+  border: 1px solid #868686;
+  border-radius: 0;
+}
+
+.submit-btn {
+  display: block;
+  background: #00AEFF;
+box-shadow: 0px 4px 6px rgba(50, 50, 93, 0.11), 0px 1px 3px rgba(0, 0, 0, 0.08);
+border-radius: 4px;
+color: white;
+}
+
+.submit-btn:hover {
+  color: white;
+  background: rgb(0, 142, 207);
+}
+
+.footer {
+  background: #FAFAFA;
+}
+
+.footer-inner h4 {
+  color: #00AEFF;
+}
+
+.footer-inner p {
+  color: #737373;
+}
+
+.quick-links {
+  color: #00AEFF;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links li a {
+  color: #00AEFF;
+}
+.quick-links li a:hover {
+  color: #00AEFF;
+  text-decoration: underline;
+}
+
+.copyright {
+  color: #8898AA;
+}
+
+.arrow-down {
+  display: inline-block;
+  margin-left: 1rem;
+  position: absolute;
+  left: 12rem;
+  top: 9px;
+  cursor: pointer;
+}
+
+.relative-label {
+  position: relative;
+}
+
+
+@media screen and (max-width: 700px) {
+  .main-header-content {
+    margin-top: 5rem;
+  }
+
+  .main-form {
+    padding-bottom: 10rem;
+  }
+}
+

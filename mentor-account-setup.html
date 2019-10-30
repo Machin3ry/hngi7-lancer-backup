@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="mentor-account-setup.css">
+  <title>Mentor Account Setup</title>
+</head>
+<body>
+  <header class="header">
+    
+    <nav class="navbar navbar-expand-md navbar-light container">
+      <a class="navbar-brand" href="#"><img class="main-logo" src="https://res.cloudinary.com/djksghat4/image/upload/v1572477800/brand-logo.svg" alt="Brand Logo"></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse right navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link links" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="#">HNG6</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="#">Mentors</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link links" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link main-btn px-3" href="#">Join HNG</a>
+          </li>
+        </ul>
+        
+      </div>
+    </nav>
+
+
+
+    <div class="container">
+      <div class="main-header-content">
+        <h1 class="text-center main-heading">Mentor Account Setup</h1>
+        <p class="text-center mt-4 mb-1">Thanks for your interest in becoming a HNG mentor.</p>
+        <p class="text-center">Kindly fill this form.</p>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+
+    <div class="container">
+      <form class="main-form mt-5">
+        <h4 class="text-center main-form-header mb-5">Choose an area of expertise</h4>
+      
+        <!-- selects here -->
+        <div class="select-group container py-5 pl-5 ">
+      
+          <div class="custom-control custom-checkbox mb-2">
+            <input type="checkbox" class="custom-control-input" id="frontend">
+            <label class="custom-control-label relative-label" for="frontend">Frontend Development</label> <img
+              class="arrow-down" src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+          </div>
+      
+          <div class="custom-control custom-checkbox mb-2">
+            <input type="checkbox" checked class="custom-control-input" id="backend">
+            <label class="custom-control-label relative-label" for="backend">Backend Development</label> <img
+              class="arrow-down" src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+          </div>
+      
+          <div class="custom-control custom-checkbox mb-2">
+            <input type="checkbox" class="custom-control-input" id="machineLearning">
+            <label class="custom-control-label relative-label" for="machineLearning">Machine Learning</label> <img
+              class="arrow-down" src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+          </div>
+      
+          <div class="custom-control custom-checkbox mb-2">
+            <input type="checkbox" class="custom-control-input" id="design">
+            <label class="custom-control-label relative-label" for="design">UI/UX Design</label> <img class="arrow-down"
+              src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+          </div>
+      
+          <div class="custom-control custom-checkbox mb-2">
+            <input type="checkbox" class="custom-control-input" id="mobile">
+            <label class="custom-control-label relative-label" for="mobile">Mobile Development</label> <img class="arrow-down"
+              src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+          </div>
+      
+          <div class="custom-control custom-checkbox mb-2">
+            <input type="checkbox" class="custom-control-input" id="digitalMarketing">
+            <label class="custom-control-label relative-label" for="digitalMarketing">Digital Marketing</label> <img
+              class="arrow-down" src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+          </div>
+        </div>
+      
+        <div class="form-second-section mt-5 pt-5">
+          <img src="https://res.cloudinary.com/djksghat4/image/upload/v1572478180/upload-image.svg" class="text-center" alt="Upload an image">
+          <p class="text-center mb-1">Click the image above to upload a photo</p>
+          <p class="text-center mb-3">JPG or PNG. Max size of 400K</p>
+      
+      
+          <div class="container mt-5 inputs">
+            <div class="form-group">
+              <input type="text" required class="form-control" placeholder="Name" name="name" id="name">
+            </div>
+      
+            <div class="form-group">
+              <input type="email" required class="form-control" placeholder="Email" name="email" id="email">
+            </div>
+      
+            <div class="form-group">
+              <input type="number" required class="form-control" placeholder="Phone Number" name="phoneNumber"
+                id="phoneNumber">
+            </div>
+      
+            <div class="form-group">
+              <input type="text" required placeholder="What do you do?" class="form-control" name="whatYouDo" id="whatYouDo">
+            </div>
+      
+            <div class="form-group">
+              <input type="text" required placeholder="Link to your portfolio" class="form-control" name="portfolio"
+                id="portfolio">
+            </div>
+      
+            <div class="form-group">
+              <input type="text" required placeholder="Link to your Linkedin profile" class="form-control" name="linkedin"
+                id="linkedin">
+            </div>
+      
+            <div class="form-group">
+              <input type="text" required placeholder=" Link to your CV" class="form-control" name="cv" id="cv">
+            </div>
+      
+            <div class="form-group">
+              <input type="text" required placeholder="What area are you interested in mentoring with HNG?"
+                class="form-control" name="area" id="area">
+            </div>
+      
+            <div class="form-group">
+              <input required placeholder="What state are you currently located in?" type="text" class="form-control"
+                name="state" id="state">
+            </div>
+      
+            <div class="form-group">
+              <input type="text" required placeholder="What is your current employement status" class="form-control"
+                name="employementStatus" id="employementStatus">
+            </div>
+          </div>
+        </div>
+      
+      
+      
+        <input type="submit" class="btn submit-btn px-5 mt-5 mx-auto" value="Submit">
+      
+      </form>
+    </div>
+
+  </main>
+  <footer class="footer py-5">
+    <div class="footer-inner container mt-5">
+      <div class="mb-5">
+       <a href="#"><img class="main-logo" src="https://res.cloudinary.com/djksghat4/image/upload/v1572477800/brand-logo.svg" alt="Brand Logo"></a>
+      </div>
+      <div class="row mt-2 mb-5">
+        <div class="col-md-3 pb-3">
+          <h4>Quick Links</h4>
+          <ul class="quick-links">
+            <li><a href="#">Join HNG</a></li>
+            <li><a href="#">About HNG</a></li>
+            <li><a href="#">Become a Sponsor</a></li>
+            <li><a href="#">Signup as a mentor</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 pb-3">
+          <h4>Contact Us</h4>
+          <p>Phone: <br>
+            +234 (0) 812 345 6789 <br>
+            Email: <br>
+            interns@hng.tech
+          </p>
+        </div>
+        <div class="col-md-3 pb-3">
+        <h4>Office Address</h4>
+          <p>
+            3 Birrel Avenue <br>
+            Sabo, Yaba, <br>
+            Lagos State
+          </p>
+        </div>
+        <div class="col-md-3 ">
+          <h4>Follow Us</h4>
+          <a href="#"><img src="https://res.cloudinary.com/djksghat4/image/upload/v1572478140/twitter.svg" alt=""></a>
+          <a href="#"><img src="https://res.cloudinary.com/djksghat4/image/upload/v1572478136/facebook.svg" alt=""></a>
+          <a href="#"><img src="https://res.cloudinary.com/djksghat4/image/upload/v1572477914/dribble.svg" alt=""></a>
+        </div>
+      </div>
+      <p class="mt-5 text-center copyright">&copy; 2019, HNG Internship, All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
