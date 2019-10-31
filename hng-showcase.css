@@ -1,0 +1,166 @@
+
+.header {
+  background: #D1F0F6;
+}
+.main-logo {
+  width: 200px;
+}
+
+.nav-item {
+  padding-left: .8rem !important;
+}
+
+.links {
+  color: #474747 !important;
+
+}
+
+.links:hover {
+  text-decoration: underline;
+}
+
+.main-btn {
+  background: #00AEFF;
+border-radius: 4px;
+font-weight: bold;
+color: white !important;
+display: inline-block;
+}
+
+.main-btn:hover {
+  background: rgb(0, 142, 207);
+}
+
+.main-heading {
+  font-size: 2rem;
+  color: #084482;
+}
+
+/* h2 {
+  font-size: 1.8rem;
+}
+
+h3 {
+  font-size: 1.5rem;
+} */
+
+.main-header-content {
+  margin-top: 5rem;
+  margin-bottom: 0;
+  padding-bottom: 5rem;
+}
+
+.text {
+  align-self: center;
+}
+
+.image img {
+  width: 100%;
+}
+
+.main-header-content p {
+  color: #474747;
+}
+
+
+
+
+
+
+.footer {
+  /* background: #FAFAFA; */
+}
+
+.footer-inner h4 {
+  color: #275B92;
+}
+
+.footer-inner p {
+  color: #737373;
+}
+
+.quick-links {
+  color: #333;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.quick-links li a {
+  color: #333;
+}
+
+.quick-links li a:hover {
+  color: #333;
+  text-decoration: underline;
+}
+
+.main {
+  
+}
+
+.h-rule {
+  height: 1px;
+  margin-top: 8rem;
+  background: #c4c4c4;
+}
+
+.second {
+background: rgba(196, 196, 196, 0.1);
+}
+
+.second h2, 
+.second h3{
+  color: #084482;
+}
+
+.second .playstore {
+  height: 40px;
+  width: auto;
+}
+
+.second-row {
+  margin-top: 4rem;
+}
+
+.align-self-center {
+  align-self: center;
+}
+
+.third h2,
+.third h3 {
+  color: #084482;
+}
+
+.resp-img {
+  width: 80%;
+}
+
+
+.copyright {
+  color: white;
+  background: #8898AA;
+}
+
+
+
+
+@media screen and (max-width: 769px) {
+  .image,
+  .kidstory-parent {
+    padding-top: 2rem;
+  }
+
+  .text {
+    text-align: center;
+  }
+  .recent-small > div {
+    margin-bottom: 2rem !important;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .playstore {
+    margin-top: 1rem;
+  }
+}
