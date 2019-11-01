@@ -125,9 +125,20 @@ color: white;
   text-decoration: underline;
 }
 
+.file-input {
+  display: block !important;
+  margin: 0 auto  !important;
+
+}
+
 .copyright {
   color: #8898AA;
 }
+
+.image-upload>input {
+  visibility: hidden;
+}
+
 
 .arrow-down {
   display: inline-block;
