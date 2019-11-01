@@ -64,36 +64,42 @@
             <input type="checkbox" class="custom-control-input" id="frontend">
             <label class="custom-control-label relative-label" for="frontend">Frontend Development</label> <img
               class="arrow-down" src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+               <small class="d-none">Front-end web development is the practice of converting data to a graphical interface, through the use of HTML, CSS, and JavaScript, so that users can view and interact with that data</small>
           </div>
       
           <div class="custom-control custom-checkbox mb-2">
             <input type="checkbox" checked class="custom-control-input" id="backend">
             <label class="custom-control-label relative-label" for="backend">Backend Development</label> <img
               class="arrow-down" src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+               <small class="d-none">Back end Development refers to the server side of development where you are primarily focused on how the site works</small>
           </div>
       
           <div class="custom-control custom-checkbox mb-2">
             <input type="checkbox" class="custom-control-input" id="machineLearning">
             <label class="custom-control-label relative-label" for="machineLearning">Machine Learning</label> <img
               class="arrow-down" src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+               <small class="d-none">Machine learning is the scientific study of algorithms and statistical models that computer systems use to perform a specific task without using explicit instructions, relying on patterns and inference instead. It is seen as a subset of artificial intelligence</small>
           </div>
       
           <div class="custom-control custom-checkbox mb-2">
             <input type="checkbox" class="custom-control-input" id="design">
             <label class="custom-control-label relative-label" for="design">UI/UX Design</label> <img class="arrow-down"
               src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+               <small class="d-none">User interface design or user interface engineering is the design of user interfaces for machines and software, such as computers, home appliances, mobile devices, and other electronic devices, with the focus on maximizing usability and the user experience.</small>
           </div>
       
           <div class="custom-control custom-checkbox mb-2">
             <input type="checkbox" class="custom-control-input" id="mobile">
             <label class="custom-control-label relative-label" for="mobile">Mobile Development</label> <img class="arrow-down"
               src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+              <small class="d-none">Mobile developers are a type of software developer. They specialise in mobile technology such as building apps for Google's Android, Apple's iOS and Microsoft's Windows Phone platforms</small>
           </div>
       
           <div class="custom-control custom-checkbox mb-2">
             <input type="checkbox" class="custom-control-input" id="digitalMarketing">
             <label class="custom-control-label relative-label" for="digitalMarketing">Digital Marketing</label> <img
               class="arrow-down" src="https://res.cloudinary.com/djksghat4/image/upload/v1572477754/arrow-down.svg" alt="">
+               <small class="d-none">Digital marketing is the marketing of products or services using digital technologies, mainly on the Internet, but also including mobile phones, display advertising, and any other digital medium.</small>
           </div>
         </div>
       
@@ -208,5 +214,15 @@
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <script>
+    const arrows = document.querySelectorAll(".arrow-down")
+    arrows.forEach((a) => {
+      a.addEventListener("click", () => {
+        a.nextElementSibling.classList.toggle("d-block")
+      })
+    })
+  </script>
 </body>
+
 </html>
